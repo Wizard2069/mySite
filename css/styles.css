@@ -1,0 +1,130 @@
+body {
+    text-align: center;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    margin: 50px auto 0 auto;
+    font-family: 'Great Vibes', cursive;
+    font-size: 5.625rem;
+    color: darkgoldenrod;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: darkgoldenrod;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3, a {
+    color: #11999E;
+}
+
+hr {
+    border: none;
+    border-top-style: dotted;
+    width: 5%;
+    color: #eaf6f6;
+    border-top-width: 10px;
+    margin: 100px auto;
+}
+
+p {
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 1.5rem;
+    line-height: 2;
+}
+
+.intro {
+    color: #40514e;
+}
+
+.top-container {
+    background-color: #7dfffc;
+    padding-top: 100px;
+    position: relative;
+}
+
+.bottom-cloud {
+    position: absolute;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 500px;
+    top: 50px;
+}
+
+.C, .Python {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.Java {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.skill-row {
+    width: 40%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.middle-container > .profile > img {
+    border-radius: 100%;
+    width: 120px;
+    margin: 50px auto 0 auto;
+}
+
+.foot {
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    margin-top: 20px;
+}
+
+.bottom-container {
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+}
+
+.myButton {
+    box-shadow:inset 0px 1px 0px 0px #bee2f9;
+    background:linear-gradient(to bottom, #63b8ee 5%, #1d61a1 100%);
+    background-color:#63b8ee;
+    border-radius:9px;
+    border:1px solid #3866a3;
+    display:inline-block;
+    cursor:pointer;
+    color:#14396a;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:10px 20px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #7cacde;
+    margin: 40px auto 80px auto;
+}
+.myButton:hover {
+    background:linear-gradient(to bottom, #1d61a1 5%, #63b8ee 100%);
+    background-color:#1d61a1;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}
+
+.if-you-like {
+    margin-bottom: 0;
+}
+
+.footer-link {
+    color: #11999e;
+    margin: 10px 20px;
+    text-decoration: none;
+}
