@@ -39,6 +39,8 @@ p {
 
 .intro {
     color: #40514e;
+    width: 30%;
+    margin: auto;
 }
 
 .top-container {
